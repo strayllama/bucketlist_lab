@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Chuck it in da Bucket!</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="bundle.js"></script>
+</head>
+<body>
+  <div class="container">
+    <form id="add-blist-form">
+      <label for="activity">What Is Your Bucket List Activity?</label>
+      <input type="text" id="activity" value="" >
+      <select id="country-selector">
+        <option value="" disabled selected required >Pick A Country</option>
+      </select>
+      <button type="submit" id="submit-blist-button">Add To Bucket List</button>
+    </form>
+    <button type="button" id="delete-all">Clear List</button>
+    <div id="list-container">
+      <ul id="blist"></ul>
+    </div>
+  </div>
+
+</body>
+</html>
